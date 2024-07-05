@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --primary-color: #159186;
+    --primary-color-darker: #0f756d;
+
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.informacoes {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+}
+
+.informacoes h4 {
+    margin: 10px  0;
+}
+.informacoes ul li {
+    padding: 2px;
+}
+
+
+form input,
+form label,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px var(--primary-color);
+}
+
+form button {
+    border: none;
+    border-radius: 5px;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+form button:hover {
+    background: var(--primary-color-darker);
+}
+
+.paragrafo-resultado, .bad {
+    background-color: #2a8eec;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.bad {
+    background-color: #e67a7a;
+    border-radius: 5px;
+}
